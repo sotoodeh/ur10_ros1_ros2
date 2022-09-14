@@ -11,6 +11,6 @@ rosrun rqt_joint_trajectory_controller rqt_joint_trajectory_controller
 
 ## ROS2
 
-ros2 launch ur_bringup ur_control.launch.py ur_type:=ur10 robot_ip:=123.124.125.12 use_fake_hardware:=false launch_rviz:=false
+ros2 launch ur_bringup ur_control.launch.py ur_type:=ur10 robot_ip:=123.124.125.xx use_fake_hardware:=false launch_rviz:=false
 
-os2 launch ur_bringup ur_moveit.launch.py ur_type:=ur10 robot_ip:=123.124.125.12 use_fake_hardware:=false launch_rviz:=true
+os2 launch ur_bringup ur_moveit.launch.py ur_type:=ur10 robot_ip:=123.124.125.xx use_fake_hardware:=false launch_rviz:=true
