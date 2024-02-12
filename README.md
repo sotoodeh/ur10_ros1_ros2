@@ -49,6 +49,7 @@ to merg the rosbags to gether:
 
 - ros2 bag convert -i rosbag2_2024_02_08-16_13_36 -i rosbag2_2024_02_08-16_14_01 -i rosbag2_2024_02_08-16_15_16 -o output_bags.yaml
 
+- ros2 launch zed_wrapper zed2.launch.py camera_name:=zedB
 
 
 
