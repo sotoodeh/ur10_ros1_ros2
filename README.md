@@ -45,7 +45,9 @@ to copy from remote PC into the current directory:
 
 - scp -r remote_pc@xx.xx.xx.xx:"/path/to/directory" .
 
+to merg the rosbags to gether:
 
+- ros2 bag convert -i rosbag2_2024_02_08-16_13_36 -i rosbag2_2024_02_08-16_14_01 -i rosbag2_2024_02_08-16_15_16 -o output_bags.yaml
 
 
 
