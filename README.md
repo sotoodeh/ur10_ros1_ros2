@@ -38,3 +38,15 @@ ros2 launch ur_bringup ur_moveit.launch.py ur_type:=ur10 robot_ip:=123.124.125.x
 
 
 
+
+## stereo network
+
+to copy from remote PC into the current directory:
+
+- scp -r remote_pc@xx.xx.xx.xx:"/path/to/directory" .
+
+
+
+
+
+
