@@ -55,7 +55,7 @@ to merg the rosbags to gether:
 
 - ros2 bag convert -i rosbag2_2024_02_08-16_13_36 -i rosbag2_2024_02_08-16_14_01 -i rosbag2_2024_02_08-16_15_16 -o output_bags.yaml
 
-
+- ros2 topic echo /zed2/zed_node2/body_trk/skeletons | grep sec
 
 
 
