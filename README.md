@@ -57,5 +57,8 @@ to merg the rosbags to gether:
 
 - ros2 topic echo /zed2/zed_node2/body_trk/skeletons | grep sec
 
+to export the images into a directory:
 
+- https://github.com/MapIV/ros2_bag_to_image
+- ros2 launch ros2_bag_to_image bag_to_image.xml input/path:=/PATH_TO/input_bag/ input/topics:="['camera1/image_rawcompressed', 'camera2/image_raw']" output/path:=/images
 
