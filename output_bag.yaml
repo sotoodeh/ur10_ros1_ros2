@@ -1,0 +1,4 @@
+output_bags:
+- uri: merged_bag3  # Output bag file name
+  all: true  # Include all topics from input bags
+
