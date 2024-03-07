@@ -61,4 +61,6 @@ to export the images into a directory:
 
 - https://github.com/MapIV/ros2_bag_to_image
 - ros2 launch ros2_bag_to_image bag_to_image.xml input/path:=/PATH_TO/input_bag/ input/topics:="['camera1/image_rawcompressed', 'camera2/image_raw']" output/path:=/images
+- ros2 launch ros2_bag_to_image bag_to_image.xml input/path:=merged_bag3 input/topics:="['/cam2/zed_node/stereo_raw/image_raw_color','/cam3/zed_node/stereo_raw/image_raw_color', '/cam8/zed_node/stereo_raw/image_raw_color']" output/path:=images
+
 
