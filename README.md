@@ -64,3 +64,10 @@ to export the images into a directory:
 - ros2 launch ros2_bag_to_image bag_to_image.xml input/path:=merged_bag3 input/topics:="['/cam2/zed_node/stereo_raw/image_raw_color','/cam3/zed_node/stereo_raw/image_raw_color', '/cam8/zed_node/stereo_raw/image_raw_color']" output/path:=images
 
 
+## Universal Robots simulator for e-Series
+
+- newgrp docker
+- docker pull universalrobots/ursim_e-series
+- docker run --rm -it universalrobots/ursim_e-series
+
+
