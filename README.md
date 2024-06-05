@@ -70,7 +70,7 @@ to export the images into a directory:
 - docker pull universalrobots/ursim_e-series
 - docker run --rm -it universalrobots/ursim_e-series
 
-## Usage with official UR simulator
+## Usage with official UR simulator (UR driver: https://docs.ros.org/en/ros2_packages/humble/api/ur_robot_driver)
 
 - ros2 run ur_client_library start_ursim.sh -m ur10e
 - ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur10e robot_ip:=192.168.56.101 launch_rviz:=true
