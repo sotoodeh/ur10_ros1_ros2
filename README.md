@@ -88,3 +88,9 @@ to export the images into a directory:
 
 - ros2 launch cartesian_controllers_universal_robots robot.launch.py
 - ros2 control switch_controllers --activate cartesian_compliance_controller --deactivate scaled_joint_trajectory_controller
+
+
+## Carla
+
+- sudo docker run --privileged --gpus all --net=host -e DISPLAY=$DISPLAY carlasim/carla:0.9.15 /bin/bash ./CarlaUE4.sh
+  
