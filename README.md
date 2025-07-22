@@ -5,6 +5,7 @@
 - run URCap on the URSim
 - ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur10e robot_ip:=192.168.56.101 launch_rviz:=true
 - ros2 run assembly_orchestrator assem_A2B
+- py-trees-tree-viewer
 - run mock_bt_inputs.py in debug mode
 
 # ur10_ros1_ros2
