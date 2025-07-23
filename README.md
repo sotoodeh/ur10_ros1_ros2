@@ -4,9 +4,9 @@
 - You can view the polyscope GUI by opening http://192.168.56.101:6080/vnc.html 
 - run URCap on the URSim
 - ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur10e robot_ip:=192.168.56.101 launch_rviz:=true
-- ros2 run assembly_orchestrator assem_A2B
+- ros2 launch assembly_orchestrator bt_assembly_orchestrator.launch.py
 - py-trees-tree-viewer
-- run mock_bt_inputs.py in debug mode
+- ros2 run assembly_orchestrator mock_bt_inputs
 
 # ur10_ros1_ros2
 instruction for running ur10 robot
