@@ -80,6 +80,7 @@ to export the images into a directory:
 - newgrp docker
 - docker pull universalrobots/ursim_e-series
 - docker run --rm -it universalrobots/ursim_e-series
+
 if the connection fails: sudo ufw disable or enable
 
 ## Usage with official UR simulator (UR driver: https://docs.ros.org/en/ros2_packages/humble/api/ur_robot_driver)
