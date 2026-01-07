@@ -76,6 +76,7 @@ to export the images into a directory:
 
 ## Universal Robots simulator for e-Series
 
+- sudo usermod -aG docker $USER
 - newgrp docker
 - docker pull universalrobots/ursim_e-series
 - docker run --rm -it universalrobots/ursim_e-series
